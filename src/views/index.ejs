@@ -18,7 +18,9 @@
               <p><%= book.description %></p>
             </div>
             <div class="card footer">
-              <button class="btn btn-danger">eliminar</button>
+              <a href="/delete/<%= book.id%>" class="btn btn-danger">
+                Borrar libro
+              </a>
             </div>
           </div>
         </div>
